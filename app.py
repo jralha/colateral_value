@@ -19,7 +19,7 @@ Based on the following rules, below we can check out the CV at any given point i
 #Data Transforms
 st.image('collateral_value_formula.png')
 
-data = pd.read_csv('data\cryptopunks_01-14-2022_13-55-22_downloaded.csv')
+data = pd.read_csv('cryptopunks_01-14-2022_13-55-22_downloaded.csv')
 
 cv_data_eth = cv_calc(data,'eth_price','utc_timestamp')['col_value']
 cv_data_usd = cv_calc(data,'usd_price','utc_timestamp')['col_value']
