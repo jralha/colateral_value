@@ -17,7 +17,7 @@ Based on the following rules, below we can check out the CV at any given point i
 """)
 
 #Data Transforms
-st.image('misc\collateral_value_formula.png')
+st.image('collateral_value_formula.png')
 
 data = pd.read_csv('data\cryptopunks_01-14-2022_13-55-22_downloaded.csv')
 
