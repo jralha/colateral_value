@@ -1,8 +1,6 @@
 import pandas as pd
 from cv_calc import cv_calc
 import streamlit as st
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import matplotlib.pyplot as plt
 import datetime
 

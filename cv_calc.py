@@ -1,6 +1,5 @@
 #%% Imports
 import pandas as pd
-import numpy as np
 
 #%% Define math for CV calculation
 def cv_calc(dataframe,price,timestamps):
